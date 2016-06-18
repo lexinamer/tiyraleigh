@@ -76,12 +76,11 @@ After completing this assignment, you be able to effectively use
 
 ### Requirements
 
-* No W3C Validation Warnings
 * The page should not be a fixed width, but instead scale as the browser window expands or shrinks. Margins and spacing should not be effected by resizing the window.
 * You must use [Normalize.css](http://necolas.github.io/normalize.css/) for cross browser consistency.
 
 
-## Normal Mode
+## Explorer Mode
 Over the course of this assignment you will develop the mobile version of the [wordpress.com](http://wordpress.com) website. The project is broken into four stages. The stages will take you through laying out the scaffolding for the page, filling in styles, text and finally images. You must follow each stage, don't skip!
 
 ## Notes
