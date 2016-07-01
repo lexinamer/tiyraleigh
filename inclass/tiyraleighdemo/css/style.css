@@ -1,0 +1,129 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h2 {
+  color: teal;
+}
+
+#nav {
+  overflow:hidden;
+  margin: 10px;
+}
+
+.logo {
+  float: left;
+  margin: auto;
+  color: teal;
+}
+
+.menu {
+  float: right;
+}
+
+.menu li {
+  display: inline;
+  background-color: teal;
+  padding: 10px;
+}
+
+.menu li:hover {
+  background-color: gray;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+#header {
+  height: 450px;
+  background: url('../images/header.jpg');
+  background-position: center;
+}
+
+.header-box {
+  width: 500px;
+  height: 200px;
+  padding: 25px;
+  margin-left: 150px;
+  background: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#main-body {
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 450px;
+}
+
+.box-left{
+  display: inline;
+  float: left;
+  width: 48%;
+  margin-right: 1%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.box-right{
+  display: inline;
+  float: right;
+  width: 48%;
+  margin-left: 1%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left-img {
+  float: left;
+  width: 33.3%;
+}
+
+.center-img {
+  float: left;
+  width: 33.3%;
+}
+
+.right-img {
+  float: right;
+  width: 33.3%;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width:768px) {
+  .menu {
+    float: left;
+    padding: 0px;
+  }
+
+  .header-box {
+    margin: 0px;
+    width: auto;
+  }
+  #main-body{
+    margin: 10px;
+    height: auto;
+    display: block;
+  }
+
+  .box-left, .box-right {
+    width: auto;
+    position: none;
+    top: none;
+    transform: none;
+  }
+
+  .left-img, .center-img, .right-img {
+    clear: both;
+    width: 100%;
+  }
+}
