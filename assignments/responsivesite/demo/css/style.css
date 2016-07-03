@@ -1,0 +1,145 @@
+.greenbox {
+  background-color: green;
+  height: 200px;
+}
+
+.bluebox {
+  background-color: blue;
+  height: 200px;
+}
+
+.blackbox {
+  background-color: black;
+  height: 200px;
+}
+
+.graybox {
+  background-color: gray;
+  height: 400px;
+}
+
+.pricing1 {
+  background-color: lightgray;
+  height: 200px;
+}
+.pricing2 {
+  background-color: lightgray;
+  height: 200px;
+}
+.pricing3 {
+  background-color: lightgray;
+  height: 200px;
+}
+.pricing4 {
+  background-color: lightgray;
+  height: 200px;
+}
+
+@media (min-width:0px) and (max-width:767px) {
+body{margin: 1%;
+}
+}
+
+@media (min-width: 767px) and (max-width:978px) {
+  .box1 {
+    float: left;
+    width: 31.3%;
+    margin: 1%;
+  }
+
+  .box2 {
+    float: left;
+    width: 31.3%;
+    margin: 1%;
+  }
+
+  .box3 {
+    float: right;
+    width: 31.3%;
+    margin: 1%;
+  }
+
+  .features {
+    clear: both;
+  }
+
+  .pricing1 {
+    float: left;
+    width: 46%;
+    margin-right: 2%;
+  }
+
+  .pricing2 {
+    float: right;
+    width: 46%;
+    margin-left: 2%;
+  }
+
+  .pricing3 {
+    float: left;
+    width: 46%;
+    margin-right: 2%;
+    margin-top: 2%;
+  }
+
+  .pricing4 {
+    float: right;
+    width: 46%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+}
+
+@media (min-width: 979px) {
+  body {
+    max-width: 970px;
+    margin: 0 auto;
+  }
+  .box1 {
+    float: left;
+    width: 31.3%;
+    margin: 1%;
+  }
+
+  .box2 {
+    float: left;
+    width: 31.3%;
+    margin: 1%;
+  }
+
+  .box3 {
+    float: right;
+    width: 31.3%;
+    margin: 1%;
+  }
+
+  .features {
+    clear: both;
+  }
+
+  .pricing1 {
+    float: left;
+    width: 46%;
+    margin-right: 2%;
+  }
+
+  .pricing2 {
+    float: right;
+    width: 46%;
+    margin-left: 2%;
+  }
+
+  .pricing3 {
+    float: left;
+    width: 46%;
+    margin-right: 2%;
+    margin-top: 2%;
+  }
+
+  .pricing4 {
+    float: right;
+    width: 46%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+}
