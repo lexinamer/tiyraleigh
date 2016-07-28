@@ -1,0 +1,55 @@
+@import "normalize";
+
+@mixin center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin box {
+  height: 250px;
+  width: 400px;
+}
+
+@mixin headers {
+  font-family: garamond;
+  text-transform: uppercase;
+}
+
+$pink: #e6005c;
+$cream: #FCFBE3;
+
+header {
+  position: relative;
+  background-color: $pink;
+  height: 500px;
+
+  div{
+    @include center;
+    @include box;
+    background-color: $cream;
+  }
+}
+
+section {
+  position: relative;
+  background-color: $cream;
+  height: 700px;
+
+  div {
+    @include center;
+    @include box;
+    background-color: $pink;
+  }
+}
+
+h1 {
+  @include headers;
+  color: $pink;
+}
+
+h2, h3 {
+  @include headers;
+  color: $cream;
+}

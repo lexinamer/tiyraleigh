@@ -1,0 +1,76 @@
+.red {
+  background-color: red;
+  height: 300px;
+}
+
+.blue {
+  background-color: lightblue;
+  height: 300px;
+}
+
+.green {
+  background-color: green;
+  height: 300px;
+}
+
+.two {
+  margin: 20px;
+}
+
+.purple {
+  background: purple;
+  height: 200px;
+}
+
+.pink {
+  background: pink;
+  height: 200px;
+}
+
+.gray {
+  background: gray;
+  height: 500px;
+}
+.yellow {
+  background: yellow;
+  height: 500px;
+}
+
+.colimg {
+  margin-top: 30px;
+}
+.bgimg {
+  background-image: url('https://images.unsplash.com/photo-1465326117523-6450112b60b2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=f340b4d4a364ac53dcb92955373fc5e0');
+  height: 500px;
+  background-position: center;
+}
+
+.redbox {
+  height: 500px;
+  background-color: red;
+}
+
+.whitebox {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.violet {
+  height: 200px;
+  background-color: violet;
+}
+
+.teal {
+  height: 200px;
+  background-color: teal;
+}
+
+.navy {
+  height: 200px;
+  background-color: navy;
+}
