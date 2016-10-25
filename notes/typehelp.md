@@ -1,4 +1,4 @@
-Marty- this is so you can hopefully get quicker at using the computer over the weekend :)
+Hi All- this is so you can hopefully get quicker at using the computer over the weekend :)
 
 **Practicing Typing**
 1. Open a blank Atom file and write the following sequences 20 times
